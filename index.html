@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Part 2 of Hackathon</title>
+  </head>
+  <body>
+    <script>
+
+        // Question no 1
+    //   function isPalindrome(str) {
+    //     const cleanStr = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+
+    //     if (cleanStr.length <= 1) {
+    //       return true;
+    //     }
+
+    //     for (let i = 0; i < Math.floor(cleanStr.length / 2); i++) {
+    //       if (cleanStr[i] !== cleanStr[cleanStr.length - 1 - i]) {
+    //         return false;
+    //       }
+    //     }
+    //     return true;
+    //   }
+
+    //   console.log(isPalindrome("")); // true (empty string)
+    //   console.log(isPalindrome("a")); // true (single character)
+    //   console.log(isPalindrome("racecar")); // true (palindrome)
+    //   console.log(isPalindrome("level")); // true (palindrome)
+    //   console.log(isPalindrome("A man, a plan, a canal, Panama")); // true (palindrome)
+    //   console.log(isPalindrome("hello")); // false (not a palindrome)
+    //   console.log(isPalindrome("12321")); // true (palindrome)
+    //   console.log(isPalindrome("12345")); // false (not a palindrome)
+    //   console.log(isPalindrome("Madam, in Eden, I'm Adam")); // true (palindrome)
+
+
+
+    // Question no 2
+
+
+//     function findMinMax(numbers) {
+//     if (!Array.isArray(numbers) || numbers.length === 0) {
+//         return "Invalid input: Please provide a non-empty array of numbers.";
+//     }
+
+//     let min = numbers[0];
+//     let max = numbers[0];
+
+//     for (let i = 1; i < numbers.length; i++) {
+//         if (numbers[i] < min) {
+//             min = numbers[i];
+//         }
+//         if (numbers[i] > max) {
+//             max = numbers[i];
+//         }
+//     }
+
+//     return { min, max };
+// }
+
+// console.log(findMinMax([2,5,8,9]))
+
+
+
+// Question 3
+
+// function findMissingNumber(numbers) {
+//     if (!Array.isArray(numbers) || numbers.length < 2) {
+//         return "Invalid input: Please provide an array of at least two numbers.";
+//     }
+
+//     numbers.sort((a, b) => a - b);
+
+//     for (let i = 0; i < numbers.length - 1; i++) {
+//         if (numbers[i + 1] - numbers[i] !== 1) {
+//             return numbers[i] + 1;
+//         }
+//     }
+//     return "No missing number found in the series.";
+// }
+
+// console.log(findMissingNumber([11, 12, , 15, 16, 18, 19, 20]));
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
